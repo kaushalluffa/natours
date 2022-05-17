@@ -312,7 +312,7 @@
                     <input type="radio" class="form__radio-input" id="large" name="size">
                     <label for="large" class="form__radio-label">
                       <span class="form__radio-button"></span>
-                      large tour group</label>
+                      Large tour group</label>
                   </div>
                 </div>
                 <div class="form__group">
@@ -357,7 +357,11 @@
     </section> -->
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="footer logo" class="footer__logo">
+        <picture class="footer__logo">
+          <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x" media="(max-width:37.5em)">
+          <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="footer logo" >
+        </picture>
+        
       </div>
       <div class="row">
         <div class="col-1-of-2">
@@ -373,7 +377,7 @@
         </div>
         <div class="col-1-of-2">
           <p class="footer__copyright">
-            Built my <a href="" class="footer__link">Kaushal Luffa</a> as projects <a href="" class="footer__link">Advanced Css and sass</a>. Copyright &copy; by jons schmedatmann. you are 100% allowed to use this webpage for both personal and commercial projects but do not claim it as your own design.
+            Built by <a href="" class="footer__link">Kaushal Luffa</a> as project <a href="" class="footer__link">Advanced Css and sass</a>. Copyright &copy; by Jonas Schmedatmann. I am 100% allowed to use this webpage for both personal and commercial projects but I am not claiming it as my own design. The credit goes to Jonas Schmedatmann
           </p>
         </div>
       </div>
